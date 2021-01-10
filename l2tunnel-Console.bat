@@ -178,8 +178,8 @@ echo.
 set /p mac=Mac: 
 echo %mac%
 echo.
-echo Mac okay?
 echo.
+echo Mac okay?
 echo.
 set /p mchoice=Type (Y/N): 
 if %mchoice%==y goto IpPort
@@ -208,6 +208,7 @@ echo %lport%
 echo.
 echo.
 echo Settings okay?
+echo.
 set /p mchoice=Type (Y/N): 
 if %mchoice%==y goto makecfg
 if %mchoice%==n goto IpPort

@@ -173,6 +173,8 @@ echo.
 echo.
 echo Enter Mac address of the machine.
 echo.
+echo Format: xx:xx:xx:xx:xx:xx
+echo.
 set /p mac=Mac: 
 echo %mac%
 echo.
